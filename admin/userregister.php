@@ -8,9 +8,14 @@ if(isset($_POST['submit']))
 	$email=$_POST['email'];
 	$role=$_POST['role'];
 
+	if(empty($username) && empty($password) && empty($email) && empty($role))
+	{
+		echo "Enter all the fields";
+	}
+
 //MAKING STATEMENT
 
-$stmt="INSERT INTO users(username,password,email,role,status) VALUES ('$username', '$password', '$email', $role, 0)";
+$stmt="INSERT INTO users(username, password, email,  role, status) VALUES ('$username', '$password', '$email', $role, 0)";
 
 //making connection
 

@@ -1,0 +1,20 @@
+DASHBOARD
+
+-session can be accessed from eveywhere in the pages.
+-session_destroy kills all the sessions 
+-session_start should be on the top of the page
+-it should be written where the login is successful
+1. start
+2. whre login is successful
+3. call
+4. end
+
+-You can do all sorts of things using the header function in PHP. Change page location, set timezone, set caching control, etc. 
+-ctime: current time
+
+welcpme $_SESSION['username'
+
+
+
+hw....
+schema and dashboard
