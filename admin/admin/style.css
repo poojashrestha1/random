@@ -1,0 +1,107 @@
+.dash
+{
+	color:black ;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 8px #550011;
+}
+body
+{
+	background-color: #b8c6dd;
+}
+ul
+{
+	font-family: Verdana, Sans-serif;
+}
+#list
+{
+	background-color: #a5a7aa;
+	height: 20px;
+	width: 200px;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+#list td
+{
+	font-weight: bold;
+}
+p
+{
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 25px;
+}
+a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+.out
+{
+font-weight: bold;
+ color: #554545;
+ font-size: 25px;
+ font-variant: small-caps;
+
+}
+a
+{
+	color: black;
+}
+
+#users
+{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+{
+		color: black;
+		border: 1px solid #ddd;
+	padding: 8px;
+     padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#users td
+{
+  background-color: grey;
+  color: white;
+}
+
+#users tr:nth-child(even)
+{
+background-color: #ccc;
+}
+
+#users td, th
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+#users th:hover
+{
+	background-color: #ddd;
+}
+
+fieldset, legend
+{
+	text-align: center;
+}
+
+fieldset
+{
+	height: 100%;
+	width: 100%
+	border: 20px;
+}
